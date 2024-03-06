@@ -1,7 +1,6 @@
 #include "Recache.h"
 
 #include "Config.h"
-#include "GameTime.h"
 
 void RecacheWorldScript::OnBeforeFinalizePlayerWorldSession(uint32& cacheVersion)
 {
