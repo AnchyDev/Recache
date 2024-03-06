@@ -5,13 +5,13 @@
 [worldserver]
 
 ########################################
-# My module configuration
+# Recache Configuration
 ########################################
 #
-#    MyModule.Enable
-#        Description: Enable my module and print "Hello World" message at server start
+#    Recache.Enable
+#        Description: Enable/Disable client cache clearing on new session.
 #        Default:     0 - Disabled
 #                     1 - Enabled
 #
 
-MyModule.Enable = 1
+Recache.Enable = 0
